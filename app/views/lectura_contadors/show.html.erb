@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Direccion:</strong>
+  <%= @lectura_contador.Direccion %>
+</p>
+
+<p>
+  <strong>Numerodecontador:</strong>
+  <%= @lectura_contador.NumeroDeContador %>
+</p>
+
+<p>
+  <strong>Lectura:</strong>
+  <%= @lectura_contador.Lectura %>
+</p>
+
+<%= link_to 'Edit', edit_lectura_contador_path(@lectura_contador) %> |
+<%= link_to 'Back', lectura_contadors_path %>

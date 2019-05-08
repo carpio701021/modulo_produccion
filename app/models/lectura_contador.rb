@@ -1,0 +1,2 @@
+class LecturaContador < ApplicationRecord
+end
