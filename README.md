@@ -1,14 +1,26 @@
-# Munis Project
+# Modulo Produccion
 
-This project is to manage, control and facilitate the common process in municipalidades of Guatemala.
+This project is to calculate costs of production and manufacture, and control the flow of the process as well.
 
 ## Modules
 
-### Meter readings (Lecturas de contadores)
+### Create model
+Creation a registering of the materials needed to manufacture the product
+
+### Upload materials costs
+Calculation of total cost of the product depending of the updated costs of materials
+
+### Manufacture flow
+Creation of flow and steps of the manufacture process, creating codes and validating each step.
 
 
 
 ## Installing the Project
+Just run the command on root path:
+
+```sh
+bundle
+```
 
 ## History of commands used
 
